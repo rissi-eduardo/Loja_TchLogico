@@ -1,0 +1,97 @@
+/* Nesse arquivo vamos colocar todos os comandos para o arquivo style.css onde ele faz com que a nossa página fique mais atraente para as pessoas que possuem uma boa visão e para quem possui um bom entendimento de programação pode utilizar esse arquivo para estudo detalhado! */
+
+/* Estamos criando os estilos para o cabeçalho */
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estamos criando os estilo para o contêiner de logotipo */
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Estamos criando uma estilização para o logo */
+  .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    /* Estamos adicionando a animação de rotação */
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  /* Estamos criando os estilos para o campo de busca */
+  .search {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    /* Estamos adicionando a animação de transição */
+    transition: background-color 0.3s ease; 
+  }
+  
+  /* Criando uma estilização para o botão de pesquiza */
+  .btn-search {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Criando um estilos para o carrinho de compras */
+  #cart {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Estamos criando uma estilização para adicionar o produto ao carrinho  */
+  .add-to-cart {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Estamos adicionando a animação de transição */
+    transition: background-color 0.3s ease; 
+  }
+
+  /* Vamos criar uma estilização para o carrinho vasio */
+  .empty-cart {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    /* Estamos  adicionando uma animação de transição */
+    transition: background-color 0.3s ease; 
+  }
+  
+  /* Animação do logo do Mercado Livre onde podemos girar o logotipo */
+  .logo:hover {
+    transform: rotate(360deg);
+  }
+  
+  /* Vamos criar uma estilização para o preço total dos produtos adicionados ao carrinho */
+  .price-text {
+    font-weight: bold;
+  }
+  
+  /* Criando estilização para ajustar o layout em telas menores */
+  @media (max-width: 768px) {
+    .logo {
+      max-width: 80px;
+    }
+  }
+  
+  

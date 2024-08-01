@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Seu Carrinho de Compras</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylecart.css">
+</head>
+<body>
+    <header class='header'>
+        <div class='logo-container'>
+            <img class='logo' src="ml-logo.jpg" alt="Mercado Livre logo">
+            <div>
+                <h1>O Seu Carrinho de Compras</h1>
+                <p>Seja bem-vindo ao seu carrinho de compras para notebook!</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <article>
+            <section class="container">
+                <div id="product"></div>
+                <p>Logo abaixo você encontra um campo para efetuar a sua busca do produto!</p>
+                <input type="text" class='search' placeholder="Buscar produtos">
+                <button class='btn-search'>Buscar</button>
+                <div class="resultado"></div>
+            </section>
+        </article>
+        <section class="container">
+            <aside id="cart">
+                <h2><span class="cart_title">Adicionar o produto ao Carrinho de Compras!</span></h2>
+                <ul id="cart-items"></ul>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+                <div class='price-show'></div>
+                <p><span class='price-text'>Valor total: R$ 0,00</span></p>
+            </aside>
+        </section>
+
+        <section class="container">
+            <aside id="cart">
+                <h2><span class="cart_title">Efetuando suas compras!</span></h2>
+                <p><span>Aqui você está adiquirindo o seu produto!</span></p>
+                <button class="add-to-cart">Comprar</button>
+
+        <section class="container">
+            <aside id="cart">
+                <h2><span class="cart_title">Removendo produto do carrinho!</span></h2>
+                <p><span> você está removendo o produto do carrinho!</span></p>
+                <ul>
+                    <li><!-- ... outros detalhes do item ... --></li>
+                </ul>
+                <button class="removeFromCart">Removendo produto do carrinho</button>
+            </aside>
+        </section>
+        
+    </main>
+    
+    <footer>
+    <h3>Informações de rodapé estão aqui.</h3>
+    <p>Desenvolvido por Rissi Eduardo</p>
+    </footer>        
+    <script src="scriptcart.js"></script>
+</body>
+</html>

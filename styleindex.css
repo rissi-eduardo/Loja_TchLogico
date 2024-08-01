@@ -1,0 +1,76 @@
+/* Vamos iniciar o style.css do index.html */
+
+/* Começaremos pelos estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Vamos criar uma estilização para o cabeçalho */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Vamos criar a estilização do logo da nossa página inicial */
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Vamos criar uma estilização para o cabeçário de nivel 1 */ 
+h1 {
+    font-size: 24px;
+}
+
+/* Vamos criar a estilização para a navegação */
+.nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Vamos criar uma estilização para o item de navegação */
+.nav-item {
+display: inline-block;
+    margin: 0 10px;
+}
+
+/* Vamos criar uma estilização para o link de navegação */
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Vamos criar uma estilização para a busca de produtos */
+.search {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Vamos criar uma estilização para o botão de pesquisa */
+.btn-search {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Vamos criar uma estilização para o rodapé */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
