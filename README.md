@@ -1,0 +1,2 @@
+    Estou criando uma loja no Mercado Livre utilizando os conseitos de html, css e javaScript, ou seja, temos uma página peincipal, uma página de carrinho, um script para a página original, um script para o carrinho, uma folha de estilos para a página original, uma folha de estilos para o carrinho e uma imagem de logotipo para ilustrar a página original e o carrinho de compras de notebooks!![ml-logo](https://github.com/user-attachments/assets/ec04809e-3aae-41e4-b735-f87f919d45ae)
+ 
