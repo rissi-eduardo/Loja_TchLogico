@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja do Rissi Eduardo no Mercado Livre!</title>
+    <title>Loja TCHLogico! </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    https://getbootstrap.com/docs/5.3/components/pagination/
     <link rel="stylesheet" href="styleindex.css">
 </head>
 <body>
@@ -13,39 +14,49 @@
         <div class='logo-container'>
             <img class='logo' src="ml-logo.jpg" alt="Mercado Livre logo">
         </div>
-        <h1>Loja do Rissi Eduardo no Mercado Livre!</h1>
-        <p>Sejam bem-vindos à minha loja de tecnologia da informação!</p>
-        <p>Aqui você encontra o que precisa para seus aparelhos de tecnologia da informação.</p>
+        <h1> Loja de tecnologia da informação: <span> TCHLogico </span> do Rissi Eduardo para o Mercado Livre! </h1>
+        <p> Sejam bem-vindos à minha loja de tecnologia da informação! </p>
+        <p> Aqui você encontra o que precisa para seus aparelhos de tecnologia da informação! </p>
+        <p> Na nossa lója você encontra todos os aparelhos, acessorios, peças para desktops ou notebooks para uso pessual ou comercial! </p>
+    <nav>
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link active" href="#cart">Ir para o carrinho de compras de notebooks!</a>
+                <a class="nav-link" href="#index.html">Ir para a página inicial</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#index.html">Ir para a página inicial</a>
+                <a class="nav-link active" href="#cart" aria-label="Link para o carrinho de compras">Ir para o carrinho de compras de notebooks!</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#rodape">Ir para as informações de rodapé</a>
             </li>
         </ul>
+    </nav>
     </header>
     <main>
         <article>
             <section class="container">
                 <div id="product"></div>
                 <p>Logo abaixo você encontra um campo para efetuar a sua busca do produto!</p>
-                <input type="text" class='search' placeholder="Buscar produtos">
-                <button class='btn-search'>Buscar</button>
+                <input type="text" class="search" placeholder="Buscar produtos">
+                <button class="btn-search">Buscar</button>
                 <div class="resultado"></div>
+            </section>
+            <section>
+                <h2>Buscando o seu CEP!</h2>
+                <p>A seguir você pode buscar o seu CEP para facilitar a sua compra!</p>
+                <iframe src="cepindex.html" frameborder="0"> Busca do seu CEP! </iframe>
+            </section>
+            <section>
+                <h2 id="cart">Bem-vindo ao carrinho de compras!</h2>
+                <p>Siga o carrinho para efetuar as suas compras!</p>
+                <iframe src="cart.html" frameborder="0"> Efetuando a sua compras por aqui! </iframe>
             </section>
         </article>
     </main>
-    </main>
-
     <footer>
-        <h3>Informações de rodapé estão aqui.</h3>
-        <p>Desenvolvido por Rissi Eduardo</p>
-        </footer>        
-    
+        <h3 id="rodape">Informações de rodapé estão aqui.</h3>
+        <p>Desenvolvido por Rissi Eduardo - Todos os Direitos reservados</p>
+    </footer>    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
